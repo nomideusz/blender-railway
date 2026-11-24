@@ -1,4 +1,4 @@
-FROM linuxserver/blender:5.2.3-ls246
+FROM linuxserver/blender:5.3.0-ls248
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
